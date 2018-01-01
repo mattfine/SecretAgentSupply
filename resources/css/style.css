@@ -1,0 +1,78 @@
+/* Global Settings */
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header Settings */
+.header {
+  background-color: black;
+  color: white;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  height: 1.5rem;
+  width: auto;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.header span {
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  font-size: 1rem;
+}
+
+/* Splash Section Settings */
+.splash {
+  background-image: url("../images/Background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+}
+
+.splash .title {
+  padding: 2rem 3rem;
+  width: 20rem;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 9rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Navigation Section Settings */
+nav {
+  background-color: firebrick;
+  color: white;
+  padding: 0.75rem 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Content Section Settings */
