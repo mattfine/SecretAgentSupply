@@ -81,12 +81,15 @@ ul {
   flex-direction: column;
 }
 
-/* Product Section Settings */
-.products, .info {
+.products, .information {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 3rem 0;
+}
+
+/* Product Section Settings */
+.products {
+    margin: 3rem 0;
 }
 
 .product {
@@ -115,3 +118,26 @@ ul {
 }
 
 /* Info Section Settings */
+.information {
+  margin-bottom: 4rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.info h5 {
+  text-align: left;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+
+/* Footer Section Settings */
+footer {
+  padding: 2rem 0;
+  background-color: black;
+  color: white;
+}
