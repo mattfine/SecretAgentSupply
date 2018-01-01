@@ -63,6 +63,27 @@ h1 {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 470px) {
+  .splash {
+    height: 15rem;
+  }
+
+  .splash .title {
+    padding: 1rem 2rem;
+    width: 100%;
+    position: relative;
+    top: 10rem;
+  }
+
+  h4 {
+    font-size: 0.77rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+}
+
 /* Navigation Section Settings */
 nav {
   background-color: firebrick;
@@ -70,9 +91,25 @@ nav {
   padding: 0.75rem 0;
 }
 
-ul {
+nav ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    text-align: center;
+  }
 }
 
 /* Content Section Global Settings */
@@ -117,6 +154,27 @@ ul {
   color: white;
 }
 
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .product {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .watch {
+    display: none;
+  }
+}
+
 /* Info Section Settings */
 .information {
   margin-bottom: 4rem;
@@ -135,9 +193,28 @@ ul {
   color: white;
 }
 
+@media only screen and (max-width: 470px) {
+  .information {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+}
+
 /* Footer Section Settings */
 footer {
   padding: 2rem 0;
   background-color: black;
   color: white;
+}
+
+@media only screen and (max-width: 470px) {
+  footer {
+    text-align: center;
+  }
 }
